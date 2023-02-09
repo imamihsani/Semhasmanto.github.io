@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="aset/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>Congratulations, Sumanto!</title>
+</head>
+<body style="background:linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.6)), url(aset/gambar/2.JPG); background-size:cover; background-repeat:no-repeat;background-position: center center; width:100%; height:100vh; align-items: center; font-family: 'Comfortaa', cursive;;">
+    <div class="container-fluid">
+        <style>
+            .btn-outline-light:hover{
+                background-color: purple;
+                border-color: red;
+            }
+            @media (max-width: 900px) {
+            .col-4 {
+            margin-top: 70%;
+            margin-bottom: 40%;
+            }
+            .col-4 button{
+                width: 150px !important;
+                align-items: center;
+                position:sticky;
+            }
+            .modal{
+                margin-top: 10%;
+                image-resolution: 50px;
+                /* max-height: 600px; */
+            }
+            .modal-title img{
+                max-width: 50%;
+            }
+            .modal-body img{
+                max-width: 100px;
+                max-height: 100px;
+            }
+            .modal-content{
+                max-height:600px;
+            }
+  }
+        </style>
+        <div class="card" style="background: none; border:none">
+            <div class="card-body" style="background: none;">
+                <div class="row">
+                    <div class="col-4 offset-4">
+                        <center><button class="btn btn-lg btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-top: 50%; margin-bottom: 50%;" onclick="play()"> <p>Klik Aku!</p></button>
+                                <audio id="audio" src="rickroll.mp3"></audio>
+
+                                <script>
+                                  function play() {
+                                    var audio = document.getElementById("audio");
+                                    audio.play();
+                                  }
+                                </script>
+                            <marquee direction="left" class="text-light" scrolldelay="90"><h4>Sebuah ucapan dari kami sekelas</h4></marquee>
+                        </center>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="" style="background-color: navy;">
+                                  <h1 class="modal-title text-light text-center"><center><img src="aset/gambar/congrats.gif" style="width:400px; height:100px;" class="gif mt-2"></center>
+                                  </h1>
+                                </div>
+                                <div class="modal-body" style="background:linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,6)), url(aset/gambar/4.jpg); background-size:cover; background-repeat:no-repeat;background-position: center center; width:100%; height:60vh; align-items: center;">
+                                  <div style="">
+                                    <center><img src="aset/gambar/5.jpg" style="border-radius:50%; width:200px; height:200px;" class="mt-5"></center>
+                                  <h3 class="text-light text-center mt-3">Selamat, Mas Manto!</h3>
+                                  <p style="font-size:15px;" class="text-light text-center mt-3"><i>Kami sekeluarga besar Informatika UAA Angkatan 2018 mengucapkan Selamat Semhas.<br>Akhirnya tinggal nunggu wisuda aja, nih. Semoga dilancarkan sampai selesai. Aamiin</i></p>
+                                  </div></div>
+                                <div class="modal-footer" style="background-color: navy;">
+                                  <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">X</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="aset/js/bootstrap.bundle.min.js"></script>
+<script src="aset/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</html>
